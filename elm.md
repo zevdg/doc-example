@@ -1,4 +1,4 @@
-# Rexources
+# Resources
 
 
 [blog entry](http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm)
@@ -13,11 +13,8 @@ npm install -g elm browser-sync gulp
 
 
 
-
-elm make --version
-
-elm make SingnupForm.elm
-elm make SingnupForm.elm --output elm.js
+elm make src/counter.elm # creates index.html
+elm make src/counter.elm --output dist/elm.js
 
 ```
 
