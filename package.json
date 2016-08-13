@@ -1,17 +1,21 @@
 {
   "name": "ghdata",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn Elm",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-copy": "0.0.2",
+    "gulp-elm": "^0.2.0"
+
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "github"
 }

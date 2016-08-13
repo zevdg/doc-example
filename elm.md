@@ -32,4 +32,4 @@ Gulp can watch files and then invoke task on
 
 # browser sync
     
-    browser-sync start --server dist --files "dist/*.js" --index example.html
+    browser-sync start --server dist --files "dist/*.js" --index counter.html

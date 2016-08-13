@@ -24,6 +24,6 @@ gulp.task('elm', ['elm-init'], function(){
     .pipe(gulp.dest('dist/'));  
 });
 
-gulp.task('default',function() {
+gulp.task('default',['copy'],function() {
   gulp.watch('src/**/*.elm', ['elm']);
 });
