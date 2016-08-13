@@ -27,9 +27,9 @@ elm make src/counter.elm --output dist/elm.js
 Dependencies are declared in `gulpfile.js`.
 
 Gulp can watch files and then invoke task on 
+Browser Sync watch for changes in files and refreshes browser
 
-`gulp`
-
-# browser sync
-    
-    browser-sync start --server dist --files "dist/*.js" --index counter.html
+```
+gulp & # run in the background
+browser-sync start --server dist --files "dist/*.js" --index counter.html
+```
